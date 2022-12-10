@@ -1,0 +1,88 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1, p {
+  margin: 15px auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 800px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 0 2em;
+  padding-bottom: 1em;
+	background-color: #2a6c64;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+.radio p{
+	text-align: left;
+	margin: 5px auto ;
+}
+
+.radio{
+	margin-bottom: 20px;
+}
+
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+select{
+	margin: 5px auto;
+	width: 101%;
+  min-height: 2em;
+}
+
+input {
+  margin: 5px auto;
+	width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #7ddae3;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #0e9585;
+  border-color: white;
+  min-width: 300px;
+}
+
+textarea{
+  display: block;
+  width: 100%
+}

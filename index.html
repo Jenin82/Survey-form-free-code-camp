@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="t">
+	<h1 id="title">SURVEY FORM</h1>
+	<p id="description" class="tt">Thank you for taking the time to help us improve the platform</p>
+	</div>
+	<form id="survey-form" action="">
+		<fieldset>
+			<label id="name-label" for="name">Name<input id="name" type="text" required placeholder="Enter your Name"></label>
+			<label id="email-label" for="email">Email<input id="email" type="email" required placeholder="Enter your Email"></label>
+			<label id="number-label" for="number">Phone Number<input id="number" type="number" min="1000000000" max="9999999999" required placeholder="Enter your Phone Number"></label>
+			<label for="dropdown">Which option best describes your current role?<select name="role" id="dropdown">
+				<option value="">(Select current role)</option>
+				<option value="Student">Student</option>
+				<option value="Part-time">Part-time</option>
+				<option value="Full-time">Full-time</option>
+			</select></label>
+		</fieldset>
+		<fieldset>
+			<label class="radio" for="recommend">Would you recommend our product to a friend?
+				<p><input id="recommend" name="recommend" type="radio" value="1" class="inline"> Definitely</p>
+				<p><input id="recommend" name="recommend" type="radio" value="2" class="inline"> Maybe</p>
+				<p><input id="recommend" name="recommend" type="radio" value="0" class="inline"> Not sure</p>
+			</label>
+			<label id="improvement">What would you like to see improved?
+				<label for=""><input type="checkbox" class="inline" value="cusomer-service">Cusomer service</label>
+				<label for=""><input type="checkbox" class="inline" value="product-quality">Product quality</label>
+				<label for=""><input type="checkbox" class="inline" value="product-design">Product design</label>
+			</label>
+		</fieldset>
+		<fieldset>
+			<label for="comment">Any comments or suggestions?
+				<textarea placeholder="Enter Your Comments Here!..."></textarea>
+			</label>
+		</fieldset>
+		<input id="submit" type="submit" id="Submit">
+	</form>
+	
+	<br>
+</body>
+</html>
